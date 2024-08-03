@@ -3,17 +3,26 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
 
   const structuredData = {
-      "@context": "https://schema.org",
-      "@type": "VideoObject",
-      "name": "Thumbnail Generator for YouTube Videos",
-      "description": "A tool for generating thumbnails from YouTube videos.",
-      "thumbnailUrl": "https://www.thumbnailvideo.com",
-      "uploadDate": "2024-07-30T00:00:00Z",
-      "contentUrl": "https://www.thumbnailvideo.com",
-      "embedUrl": "https://www.thumbnailvideo.com",
-      "duration": "PT1M30S",
-      "interactionCount": "12345"
-  };
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Video Thumbnail Maker - Create Stunning Thumbnails for YouTube",
+    "description": "Create stunning video thumbnails with our easy-to-use Video Thumbnail Maker. Perfect for YouTube creators looking to enhance their video's visual appeal and attract more viewers.",
+    "url": "https://www.thumbnailvideo.com",
+    "thumbnailUrl": "https://www.thumbnailvideo.com/thumbnail.png",
+    "author": {
+      "@type": "Person",
+      "name": "qudgus21"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Video Thumbnail Maker",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thumbnailvideo.com/logo.png"
+      }
+    }
+  }
+
 
   return (
       <Html lang="en">
@@ -52,6 +61,7 @@ export default function Document() {
             name="twitter:card"
             content="summary_large_image"
           />
+
           <meta
             name="twitter:title"
             content="Video Thumbnail Maker - Create Stunning Thumbnails for YouTube"
@@ -62,7 +72,7 @@ export default function Document() {
           />
           <meta
             name="twitter:image"
-            content="https://www.example.com/thumbnail-preview.png"
+            content="https://www.thumbnailvideo.com/thumbnail.png"
           />
           <script type="application/ld+json">
             {JSON.stringify(structuredData)}

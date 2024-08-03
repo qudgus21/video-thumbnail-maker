@@ -39,7 +39,7 @@ export default function Document() {
           />
           <meta
             property="og:image"
-            content="https://www.example.com/thumbnail.png"
+            content="https://www.thumbnailvideo.com/thumbnail.png"
           />
           ㅔ
           <meta

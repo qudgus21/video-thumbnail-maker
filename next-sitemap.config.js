@@ -1,6 +1,6 @@
 // next-sitemap.config.js
 module.exports = {
-    siteUrl: 'https://www.example.com', // 당신의 사이트 URL
+    siteUrl: 'https://www.thumbnailvideo.com', // 당신의 사이트 URL
     generateRobotsTxt: true, // robots.txt 파일을 생성합니다
     sitemapSize: 7000, // (옵션) 사이트 맵 파일당 URL 수 제한 (기본값: 50000)
     changefreq: 'yearly', // 페이지 변경 빈도를 거의 없다고 설정 (매년)

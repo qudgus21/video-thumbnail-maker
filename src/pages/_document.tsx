@@ -50,7 +50,6 @@ export default function Document() {
             property="og:image"
             content="https://www.thumbnailvideo.com/thumbnail.png"
           />
-          ㅔ
           <meta
             property="og:url"
             content="https://www.thumbnailvideo.com"

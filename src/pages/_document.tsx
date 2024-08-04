@@ -76,6 +76,9 @@ export default function Document() {
           <script type="application/ld+json">
             {JSON.stringify(structuredData)}
           </script>
+          <script async
+                  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4113492235812561"
+                  crossOrigin="anonymous"></script>
           <link rel="canonical" href="https://www.thumbnailvideo.com"/>
         </Head>
         <body>
